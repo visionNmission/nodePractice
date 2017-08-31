@@ -8,17 +8,18 @@
   <link rel="stylesheet" href="/static/index.css">
 </head>
 <body>
-  <h1>Hello Node.js</h1>
-
-    <input type="button" value="글쓰기">
-  <form action="/" method="get">
-    <input type="button" value="관리자">
+  <h1>익명 게시판</h1>
+  <form action="/writting" method="get">
+    <input type="submit" value="글쓰기">
+  </form>
+  <form action="/admin" method="get">
+    <input type="submit" value="관리자">
   </form>
   
   <table>
     <thead>
       <tr>
-        <td>익명 게시판</td>
+        <td>게시글</td>
       </tr>
     </thead>
     <tbody>
