@@ -15,7 +15,7 @@ app.use(`/static`, express.static(`public`))
 app.use(morgan(`tiny`))
 
 app.get(`/`, (req, res) => {
-  res.send(`Hello Node.js`)
+  res.render('index.ejs')
 })
 
 app.listen(3000, () => {
