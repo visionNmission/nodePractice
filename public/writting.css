@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background: whitesmoke;
 }
 input[type="text"] {
   display: block;
-  width: 350px;
+  width: 353px;
 }
 input[type="submit"] {
   width: 100px;
