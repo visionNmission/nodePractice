@@ -1,6 +1,6 @@
 const express = require(`express`)
 const morgan = require(`morgan`)
-var basicAuth = require('express-basic-auth')
+const basicAuth = require('express-basic-auth')
 
 const app = express()
 
@@ -24,7 +24,6 @@ app.get(`/writting`, (req, res) => {
   res.render(`writting.ejs`)
 })
 
-
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log(`listening...`)
 })
